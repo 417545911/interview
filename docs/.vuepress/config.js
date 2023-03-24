@@ -3,7 +3,9 @@ module.exports = {
   description: "XXXXXXXXX",
   base: "/interview/", // 仓库名
   locales: { "/": { lang: "zh-CN" } },
+  theme: "reco",
   themeConfig: {
+    noFoundPageByTencent: false, // vuepress-theme-reco 关闭404腾讯公益
     nav: [
       { text: "首页", link: "/" },
       {
