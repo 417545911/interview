@@ -14,5 +14,6 @@ module.exports = {
     modelName: ["hijiki"],
     mobileShow: true,
   },
-  // 3.添加著作权信息
+  // 3.优化代码展示
+  "@vuepress-reco/extract-code": {},
 };
