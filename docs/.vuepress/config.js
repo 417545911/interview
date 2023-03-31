@@ -1,3 +1,4 @@
+const pluginsConf = require("./plugins/index");
 module.exports = {
   title: "小铁匠",
   description: "向着星辰与深渊",
@@ -29,7 +30,7 @@ module.exports = {
       },
     ],
     lastUpdated: "Last Updated",
-    author: "班尼特",
+    author: "小铁匠",
     authorAvatar: "/avatar.jpg",
     type: "blog",
     blogConfig: {
@@ -43,4 +44,5 @@ module.exports = {
       },
     },
   },
+  plugins: pluginsConf,
 };
