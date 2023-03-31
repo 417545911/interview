@@ -9,9 +9,10 @@ module.exports = {
     ],
     footer: [{ type: "button", text: "打赏", link: "/donate" }],
   },
-  // 2.代码复制
-  "vuepress-plugin-nuggets-style-copy": {
-    copyText: "复制代码",
-    tip: { content: "复制成功" },
+  // 2.看板娘添加
+  "vuepress-plugin-live2d": {
+    modelName: ["hijiki"],
+    mobileShow: true,
   },
+  // 3.添加著作权信息
 };
